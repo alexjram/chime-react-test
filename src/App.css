@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-container > div {
+  width: 450px;
+  max-width: 100%;
+}
+.video-container > div > div {
+  aspect-ratio: 16/9;
+  position: relative;
+}
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
